@@ -1,19 +1,14 @@
 const Recipe = require('../models/Recipe');
 
-// @desc    Get all recipes
-// @route   GET /api/recipes
-// @access  Public
 exports.getRecipes = async (req, res) => {
   try {
     const { category, search } = req.query;
     let query = {};
 
-    // Filter by category
     if (category && category !== 'Semua') {
       query.category = category;
     }
 
-    // Search by title or description
     if (search) {
       query.$or = [
         { title: { $regex: search, $options: 'i' } },
@@ -33,9 +28,6 @@ exports.getRecipes = async (req, res) => {
   }
 };
 
-// @desc    Get single recipe
-// @route   GET /api/recipes/:id
-// @access  Public
 exports.getRecipe = async (req, res) => {
   try {
     const recipe = await Recipe.findById(req.params.id);
@@ -53,9 +45,6 @@ exports.getRecipe = async (req, res) => {
   }
 };
 
-// @desc    Create new recipe
-// @route   POST /api/recipes
-// @access  Private
 exports.createRecipe = async (req, res) => {
   try {
     req.body.createdBy = req.user.id;
@@ -70,9 +59,6 @@ exports.createRecipe = async (req, res) => {
   }
 };
 
-// @desc    Update recipe
-// @route   PUT /api/recipes/:id
-// @access  Private
 exports.updateRecipe = async (req, res) => {
   try {
     let recipe = await Recipe.findById(req.params.id);
@@ -95,9 +81,6 @@ exports.updateRecipe = async (req, res) => {
   }
 };
 
-// @desc    Delete recipe
-// @route   DELETE /api/recipes/:id
-// @access  Private
 exports.deleteRecipe = async (req, res) => {
   try {
     const recipe = await Recipe.findById(req.params.id);
