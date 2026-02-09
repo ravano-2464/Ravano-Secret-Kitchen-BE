@@ -1,6 +1,11 @@
 const mongoose = require('mongoose');
 
 const RecipeSchema = new mongoose.Schema({
+  id: {
+    type: String,
+    required: true,
+    unique: true
+  },
   title: {
     type: String,
     required: [true, 'Please add a title'],

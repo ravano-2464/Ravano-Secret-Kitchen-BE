@@ -30,7 +30,7 @@ exports.getRecipes = async (req, res) => {
 
 exports.getRecipe = async (req, res) => {
   try {
-    const recipe = await Recipe.findById(req.params.id);
+    const recipe = await Recipe.findOne({ id: req.params.id });
 
     if (!recipe) {
       return res.status(404).json({ message: 'Recipe not found' });
@@ -61,13 +61,13 @@ exports.createRecipe = async (req, res) => {
 
 exports.updateRecipe = async (req, res) => {
   try {
-    let recipe = await Recipe.findById(req.params.id);
+    let recipe = await Recipe.findOne({ id: req.params.id });
 
     if (!recipe) {
       return res.status(404).json({ message: 'Recipe not found' });
     }
 
-    recipe = await Recipe.findByIdAndUpdate(req.params.id, req.body, {
+    recipe = await Recipe.findOneAndUpdate({ id: req.params.id }, req.body, {
       new: true,
       runValidators: true
     });
@@ -83,7 +83,7 @@ exports.updateRecipe = async (req, res) => {
 
 exports.deleteRecipe = async (req, res) => {
   try {
-    const recipe = await Recipe.findById(req.params.id);
+    const recipe = await Recipe.findOne({ id: req.params.id });
 
     if (!recipe) {
       return res.status(404).json({ message: 'Recipe not found' });
