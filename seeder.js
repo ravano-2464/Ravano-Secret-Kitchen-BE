@@ -6,6 +6,7 @@ dotenv.config();
 
 const recipes = [
   {
+    id: "6c84fb90-12c4-11e1-840d-7b25c5ee775a",
     title: "Rendang Daging Sapi",
     category: "Masakan Utama",
     difficulty: "Sedang",
@@ -38,7 +39,7 @@ const recipes = [
       "Masak hingga kuah mengering dan daging empuk berwarna cokelat kehitaman.",
       "Angkat dan sajikan dengan nasi hangat."
     ],
-    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/watch?v=DMcFqtm1lfY",
     tips: [
       "Gunakan daging sapi bagian sandung lamur untuk hasil yang lebih empuk",
       "Masak dengan api kecil agar bumbu meresap sempurna",
@@ -46,6 +47,7 @@ const recipes = [
     ]
   },
   {
+    id: "110ec58a-a0f2-4ac4-8393-c866d813b8d1",
     title: "Nasi Goreng Kampung",
     category: "Masakan Utama",
     difficulty: "Mudah",
@@ -78,6 +80,7 @@ const recipes = [
       "Tambahkan daun bawang, aduk sebentar.",
       "Angkat dan sajikan selagi hangat."
     ],
+    videoUrl: "https://www.youtube.com/watch?v=xBZeOw681vk",
     tips: [
       "Gunakan nasi yang sudah dingin agar tidak lengket",
       "Terasi memberikan aroma dan rasa yang khas",
@@ -85,6 +88,7 @@ const recipes = [
     ]
   },
   {
+    id: "a9d1877b-6cdd-41e7-be49-939e0839e240",
     title: "Soto Ayam Kuning",
     category: "Masakan Berkuah",
     difficulty: "Mudah",
@@ -101,7 +105,7 @@ const recipes = [
       "3 lembar daun salam",
       "2 lembar daun jeruk",
       "5 siung bawang putih",
-      "6 siung bawang merah",
+      "6 siung bawang putih",
       "1 sdt merica bubuk",
       "Garam secukupnya",
       "Minyak untuk menumis",
@@ -118,6 +122,7 @@ const recipes = [
       "Siram dengan kuah soto panas.",
       "Beri taburan seledri, bawang goreng, tomat, dan perasan jeruk nipis."
     ],
+    videoUrl: "https://www.youtube.com/watch?v=I6KKPcDV5PQ",
     tips: [
       "Bakar kunyit terlebih dahulu agar aromanya lebih harum",
       "Bisa ditambahkan kentang goreng sebagai pelengkap",
@@ -125,6 +130,7 @@ const recipes = [
     ]
   },
   {
+    id: "9f05a1ce-718c-4573-b3c4-f8cf1c210d52",
     title: "Kue Lapis Legit",
     category: "Kue dan Camilan",
     difficulty: "Sulit",
@@ -156,7 +162,7 @@ const recipes = [
       "Setelah semua adonan habis, panggang kue dengan api atas bawah selama 20 menit.",
       "Dinginkan, potong-potong, dan sajikan."
     ],
-    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/watch?v=05ZPOsh-5jk",
     tips: [
       "Pastikan setiap lapisan matang sempurna sebelum menambah lapisan baru",
       "Jangan sampai gosong karena akan pahit",
@@ -165,6 +171,7 @@ const recipes = [
     ]
   },
   {
+    id: "5be0c4b4-6a89-4e14-a957-c37a6b093b12",
     title: "Pisang Goreng Crispy",
     category: "Kue dan Camilan",
     difficulty: "Mudah",
@@ -192,6 +199,7 @@ const recipes = [
       "Angkat dan tiriskan.",
       "Sajikan selagi hangat."
     ],
+    videoUrl: "https://www.youtube.com/watch?v=WbMESRQd7a0",
     tips: [
       "Gunakan air es agar hasilnya lebih crispy",
       "Goreng dengan api sedang agar matang merata",
@@ -199,6 +207,7 @@ const recipes = [
     ]
   },
   {
+    id: "c9594d4e-d00e-4348-b42d-222a76f2360e",
     title: "Sayur Asem Jakarta",
     category: "Sayuran",
     difficulty: "Mudah",
@@ -232,6 +241,7 @@ const recipes = [
       "Masukkan tomat, masak sebentar.",
       "Koreksi rasa, angkat dan sajikan."
     ],
+    videoUrl: "https://www.youtube.com/watch?v=It1J25H5790",
     tips: [
       "Tambahkan asam jawa di akhir agar sayuran tidak terlalu lembek",
       "Bisa ditambahkan nangka muda untuk variasi",
@@ -245,11 +255,9 @@ const seedDB = async () => {
     await mongoose.connect(process.env.MONGODB_URI);
     console.log('MongoDB Connected');
 
-    // Delete existing recipes
     await Recipe.deleteMany();
     console.log('Existing recipes deleted');
 
-    // Insert new recipes
     await Recipe.insertMany(recipes);
     console.log('Recipes seeded successfully');
 
