@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍳 Rahasia Dapur - Backend API
+# 🍳 Ravano Secret Kitchen - Backend API
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-4.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
@@ -129,6 +129,6 @@ curl http://localhost:5000/api/recipes
 
 <div align="center">
 
-**Made with ❤️ for Indonesian Food Lovers**
+**Dibuat dengan ❤️ oleh Ravano Akbar Widodo**
 
 </div>

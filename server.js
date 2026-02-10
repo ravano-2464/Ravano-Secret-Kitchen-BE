@@ -16,7 +16,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/recipes', require('./routes/recipes'));
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Rahasia Dapur API is running' });
+  res.json({ message: 'Ravano Secret Kitchen API is running' });
 });
 
 app.use((err, req, res, next) => {
