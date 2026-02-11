@@ -2,10 +2,10 @@
   "name": "rahasia-dapur-backend",
   "version": "1.0.0",
   "description": "Backend API for Ravano Secret Kitchen Recipe App",
-  "main": "server.js",
+  "main": "server.ts",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node server.ts",
+    "dev": "node --watch server.ts"
   },
   "keywords": [
     "recipe",
