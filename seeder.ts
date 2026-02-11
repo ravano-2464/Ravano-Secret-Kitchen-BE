@@ -247,6 +247,611 @@ const recipes = [
       "Bisa ditambahkan nangka muda untuk variasi",
       "Enak disajikan dengan ikan asin atau ayam goreng"
     ]
+  },
+  {
+    id: "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    title: "Sate Ayam Madura",
+    category: "Masakan Utama",
+    difficulty: "Sedang",
+    time: "1 jam",
+    servings: "4 porsi",
+    image: "https://asset.kompas.com/crops/bf_40E-g750x500/data/photo/2013/11/15/sate-ayam-madura780x390.jpg",
+    description: "Sate ayam dengan bumbu kacang khas Madura yang kental dan gurih.",
+    ingredients: [
+      "500 gr daging ayam, potong dadu",
+      "200 gr kacang tanah, goreng dan haluskan",
+      "3 siung bawang putih",
+      "3 siung bawang merah",
+      "2 butir kemiri",
+      "50 gr gula merah",
+      "Kecap manis secukupnya",
+      "Garam secukupnya",
+      "Jeruk nipis"
+    ],
+    steps: [
+      "Haluskan bumbu kacang.",
+      "Tumis bumbu hingga harum, tambahkan air dan kecap.",
+      "Tusuk daging ayam.",
+      "Bakar sate sambil diolesi bumbu.",
+      "Sajikan dengan bumbu kacang dan acar."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample1",
+    tips: ["Rendam tusuk sate agar tidak terbakar."]
+  },
+  {
+    id: "d9e4a3b1-2c5d-4e6f-8a9b-0c1d2e3f4g5h",
+    title: "Gado-Gado",
+    category: "Sayuran",
+    difficulty: "Mudah",
+    time: "45 menit",
+    servings: "3 porsi",
+    image: "https://www.masakapahariini.com/wp-content/uploads/2019/01/gado-gado.jpg",
+    description: "Salad sayuran khas Indonesia dengan saus kacang.",
+    ingredients: [
+      "Kangkung, tauge, labu siam, kacang panjang (rebus)",
+      "Tempe dan tahu goreng",
+      "Telur rebus",
+      "Bumbu kacang",
+      "Kerupuk"
+    ],
+    steps: [
+      "Tata sayuran, tahu, tempe, dan telur di piring.",
+      "Siram bumbu kacang.",
+      "Taburkan kerupuk dan bawang goreng."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample2",
+    tips: ["Sajikan segera setelah disiram bumbu."]
+  },
+  {
+    id: "b8a9c2d1-3e4f-5a6b-7c8d-9e0f1a2b3c4d",
+    title: "Bakso Sapi",
+    category: "Masakan Berkuah",
+    difficulty: "Sulit",
+    time: "2 jam",
+    servings: "6 porsi",
+    image: "https://cdn1-production-images-kly.akamaized.net/K34703487043870/640x360/03487043870/bakso-sapi-kenyal-alami.jpg",
+    description: "Bola daging sapi dengan kuah kaldu yang segar.",
+    ingredients: [
+      "500 gr daging sapi giling",
+      "100 gr tepung tapioka",
+      "Es batu secukupnya",
+      "Bawang putih, garam, merica (haluskan)",
+      "Kuah kaldu sapi"
+    ],
+    steps: [
+      "Giling daging dengan es batu dan bumbu.",
+      "Campur dengan tepung tapioka, uleni hingga kalis.",
+      "Bentuk bulat, rebus dalam air panas hingga mengapung.",
+      "Sajikan dengan kuah kaldu dan pelengkap."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample3",
+    tips: ["Gunakan daging segar agar bakso kenyal."]
+  },
+  {
+    id: "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    title: "Pempek Palembang",
+    category: "Kue dan Camilan",
+    difficulty: "Sulit",
+    time: "2 jam",
+    servings: "5 porsi",
+    image: "https://asset.kompas.com/crops/Pempek-Palembang.jpg",
+    description: "Makanan khas Palembang dari ikan dan sagu dengan kuah cuko.",
+    ingredients: [
+      "500 gr daging ikan tenggiri",
+      "300 gr tepung sagu",
+      "Bawang putih, garam, penyedap",
+      "Air es",
+      "Bahan cuko: gula merah, asam jawa, cabai, bawang putih, cuka"
+    ],
+    steps: [
+      "Campur ikan dengan bumbu dan air es.",
+      "Masukkan sagu sedikit demi sedikit, aduk rata.",
+      "Bentuk adonan (lenjer atau kapal selam dengan telur).",
+      "Rebus hingga mengapung, lalu goreng.",
+      "Sajikan dengan cuko."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample4",
+    tips: ["Jangan mengulen adonan terlalu keras agar tidak alot."]
+  },
+  {
+    id: "f1e2d3c4-b5a6-7890-1234-567890abcdef",
+    title: "Gudeg Jogja",
+    category: "Masakan Utama",
+    difficulty: "Sulit",
+    time: "4 jam",
+    servings: "6 porsi",
+    image: "https://asset.kompas.com/crops/Gudeg-Jogja.jpg",
+    description: "Sayur nangka muda dengan santan dan gula merah.",
+    ingredients: [
+      "1 kg nangka muda",
+      "1 liter santan",
+      "Gula merah, daun salam, lengkuas",
+      "Bumbu halus: bawang merah, bawang putih, ketumbar, kemiri"
+    ],
+    steps: [
+      "Rebus nangka muda dengan bumbu dan santan.",
+      "Masak dengan api kecil hingga kuah habis dan nangka empuk (coklat kemerahan).",
+      "Sajikan dengan nasi, ayam, dan krecek."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample5",
+    tips: ["Masak perlahan untuk hasil terbaik."]
+  },
+  {
+    id: "1a2b3c4d-5e6f-7890-1234-567890abcdef",
+    title: "Rawon Surabaya",
+    category: "Masakan Berkuah",
+    difficulty: "Sedang",
+    time: "2 jam",
+    servings: "5 porsi",
+    image: "https://asset.kompas.com/crops/Rawon.jpg",
+    description: "Sup daging sapi dengan kuah hitam dari kluwek.",
+    ingredients: [
+      "500 gr daging sapi",
+      "Kluwek (rendam air panas)",
+      "Bumbu halus: bawang merah, bawang putih, kunyit, jahe, kemiri",
+      "Serai, daun jeruk",
+      "Tauge pendek"
+    ],
+    steps: [
+      "Rebus daging hingga empuk.",
+      "Tumis bumbu halus dan kluwek, masukkan ke rebusan daging.",
+      "Masak hingga meresap.",
+      "Sajikan dengan tauge, telur asin, dan sambal."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample6",
+    tips: ["Pilih kluwek yang tua dan tidak pahit."]
+  },
+  {
+    id: "9z8y7x6w-5v4u-3t2s-1r0q-p9o8n7m6l5k4",
+    title: "Soto Betawi",
+    category: "Masakan Berkuah",
+    difficulty: "Sedang",
+    time: "1.5 jam",
+    servings: "4 porsi",
+    image: "https://asset.kompas.com/crops/Soto-Betawi.jpg",
+    description: "Soto bersantan dengan isian daging dan jeroan.",
+    ingredients: [
+      "500 gr daging sapi/jeroan",
+      "500 ml santan",
+      "250 ml susu cair (opsional)",
+      "Rempah-rempah (cengkeh, kayu manis)",
+      "Bumbu halus: bawang merah, bawang putih, jahe, kemiri"
+    ],
+    steps: [
+      "Rebus daging hingga empuk.",
+      "Tumis bumbu halus, masukkan ke kuah daging.",
+      "Tambahkan santan dan susu, aduk terus.",
+      "Sajikan dengan emping, tomat, dan daun bawang."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample7",
+    tips: ["Gunakan susu untuk rasa yang lebih creamy dan gurih."]
+  },
+  {
+    id: "1q2w3e4r-5t6y-7u8i-9o0p-a1s2d3f4g5h6",
+    title: "Opor Ayam",
+    category: "Masakan Utama",
+    difficulty: "Sedang",
+    time: "1 jam",
+    servings: "6 porsi",
+    image: "https://asset.kompas.com/crops/Opor-Ayam.jpg",
+    description: "Ayam masak santan putih/kuning, teman setia ketupat.",
+    ingredients: [
+      "1 ekor ayam, potong-potong",
+      "1 liter santan",
+      "Serai, daun salam, lengkuas",
+      "Bumbu halus: bawang merah, bawang putih, kemiri, ketumbar, jintan, kunyit (opsional)"
+    ],
+    steps: [
+      "Tumis bumbu halus dan rempah daun.",
+      "Masukkan ayam, aduk hingga berubah warna.",
+      "Tuang santan, masak hingga ayam empuk dan kuah mengental.",
+      "Sajikan dengan ketupat dan bawang goreng."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample8",
+    tips: ["Gunakan ayam kampung untuk rasa yang lebih gurih."]
+  },
+  {
+    id: "a2b3c4d5-e6f7-8901-2345-67890abcdef1",
+    title: "Ayam Goreng Kalasan",
+    category: "Masakan Utama",
+    difficulty: "Sedang",
+    time: "1 jam",
+    servings: "4 porsi",
+    image: "https://asset.kompas.com/crops/Ayam-Kalasan.jpg",
+    description: "Ayam goreng dengan rasa manis gurih khas Kalasan, Yogyakarta.",
+    ingredients: [
+      "1 ekor ayam kampung, potong 4",
+      "500 ml air kelapa",
+      "Gula merah, daun salam, lengkuas",
+      "Bumbu halus: bawang putih, ketumbar, kemiri, garam"
+    ],
+    steps: [
+      "Ungkep ayam dengan air kelapa dan bumbu hingga air menyusut.",
+      "Tiriskan ayam.",
+      "Goreng ayam sebentar dalam minyak panas.",
+      "Sajikan dengan sambal dan lalapan."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample9",
+    tips: ["Gunakan air kelapa agar daging ayam lebih empuk dan gurih."]
+  },
+  {
+    id: "b3c4d5e6-f7g8-9012-3456-7890abcdef12",
+    title: "Tahu Telur",
+    category: "Masakan Utama",
+    difficulty: "Mudah",
+    time: "30 menit",
+    servings: "2 porsi",
+    image: "https://asset.kompas.com/crops/Tahu-Telur.jpg",
+    description: "Omelet tahu khas Jawa Timur dengan bumbu petis.",
+    ingredients: [
+      "2 buah tahu putih, potong dadu",
+      "3 butir telur, kocok lepas",
+      "Tauge rebus",
+      "Bumbu kacang petis: kacang tanah, petis udang, bawang putih, cabai",
+      "Kerupuk"
+    ],
+    steps: [
+      "Campur tahu dan telur, tambahkan sedikit garam.",
+      "Goreng hingga matang kedua sisi.",
+      "Letakkan di piring, beri tauge di atasnya.",
+      "Siram dengan bumbu kacang petis.",
+      "Taburi bawang goreng dan kerupuk."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample10",
+    tips: ["Gunakan api sedang agar telur matang merata."]
+  },
+  {
+    id: "c4d5e6f7-g8h9-0123-4567-890abcdef123",
+    title: "Pepes Ikan Mas",
+    category: "Masakan Utama",
+    difficulty: "Sulit",
+    time: "1.5 jam",
+    servings: "2 porsi",
+    image: "https://asset.kompas.com/crops/Pepes-Ikan.jpg",
+    description: "Ikan mas dibumbu kuning dan dibungkus daun pisang.",
+    ingredients: [
+      "2 ekor ikan mas",
+      "Daun pisang untuk membungkus",
+      "Daun kemangi, tomat, cabai rawit utuh",
+      "Bumbu halus: bawang merah, bawang putih, kunyit, jahe, kemiri, cabai merah"
+    ],
+    steps: [
+      "Lumuri ikan dengan bumbu halus dan garam, diamkan 15 menit.",
+      "Siapkan daun pisang, tata ikan, kemangi, tomat, dan cabai rawit.",
+      "Bungkus rapi dan semat dengan lidi.",
+      "Kukus selama 1 jam hingga matang.",
+      "Bakar sebentar di atas bara api agar harum (opsional)."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample11",
+    tips: ["Kukus ikan cukup lama agar duri lunak."]
+  },
+  {
+    id: "d5e6f7g8-h9i0-1234-5678-90abcdef1234",
+    title: "Sayur Lodeh",
+    category: "Sayuran",
+    difficulty: "Sedang",
+    time: "45 menit",
+    servings: "5 porsi",
+    image: "https://asset.kompas.com/crops/Sayur-Lodeh.jpg",
+    description: "Sayur berkuah santan dengan isian nangka muda, labu siam, dan kacang panjang.",
+    ingredients: [
+      "200 gr nangka muda",
+      "100 gr kacang panjang",
+      "1 buah labu siam",
+      "1 buah terong",
+      "Daun melinjo dan buah melinjo",
+      "1 liter santan",
+      "Bumbu halus: bawang merah, bawang putih, cabai merah, kemiri, terasi"
+    ],
+    steps: [
+      "Rebus nangka muda dan melinjo hingga empuk.",
+      "Masukkan bumbu halus, lengkuas, dan daun salam.",
+      "Masukkan santan dan sisa sayuran.",
+      "Masak hingga semua sayuran matang.",
+      "Koreksi rasa."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample12",
+    tips: ["Aduk terus santan agar tidak pecah."]
+  },
+  {
+    id: "e6f7g8h9-i0j1-2345-6789-0abcdef12345",
+    title: "Perkedel Kentang",
+    category: "Kue dan Camilan",
+    difficulty: "Mudah",
+    time: "45 menit",
+    servings: "10 buah",
+    image: "https://asset.kompas.com/crops/Perkedel.jpg",
+    description: "Olahan kentang goreng yang dihaluskan dan dibumbui.",
+    ingredients: [
+      "500 gr kentang, kupas potong dadu",
+      "1 butir telur (pisahkan kuning dan putih)",
+      "Daun seledri iris halus",
+      "Bawang merah goreng",
+      "Bumbu halus: bawang putih, merica, pala, garam"
+    ],
+    steps: [
+      "Goreng kentang hingga matang, haluskan selagi panas.",
+      "Campur kentang halus dengan kuning telur, bumbu halus, seledri, dan bawang goreng.",
+      "Bentuk bulat pipih.",
+      "Celupkan ke putih telur kocok.",
+      "Goreng dalam minyak panas hingga kecokelatan."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample13",
+    tips: ["Gunakan kentang jenis tes agar tidak lembek."]
+  },
+  {
+    id: "f7g8h9i0-j1k2-3456-7890-abcdef123456",
+    title: "Martabak Manis",
+    category: "Kue dan Camilan",
+    difficulty: "Sedang",
+    time: "1 jam",
+    servings: "8 potong",
+    image: "https://asset.kompas.com/crops/Martabak-Manis.jpg",
+    description: "Kue dadar tebal manis dengan topping coklat, keju, dan kacang.",
+    ingredients: [
+      "250 gr tepung terigu",
+      "350 ml air",
+      "1 butir telur",
+      "Gula pasir, baking powder, baking soda",
+      "Topping: mentega, susu kental manis, coklat meises, keju parut"
+    ],
+    steps: [
+      "Campur tepung, gula, dan air, aduk rata hingga tidak bergerindil.",
+      "Diamkan adonan 1 jam.",
+      "Tambahkan baking powder dan baking soda, aduk rata.",
+      "Panaskan teflon, tuang adonan, tunggu hingga bersarang.",
+      "Taburkan gula pasir, tutup teflon hingga matang.",
+      "Angkat, olesi mentega dan beri topping."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample14",
+    tips: ["Pastikan teflon benar-benar panas sebelum menuang adonan."]
+  },
+  {
+    id: "g8h9i0j1-k2l3-4567-8901-abcdef123456",
+    title: "Klepon",
+    category: "Kue dan Camilan",
+    difficulty: "Sedang",
+    time: "1 jam",
+    servings: "20 butir",
+    image: "https://asset.kompas.com/crops/Klepon.jpg",
+    description: "Kue bola ketan hijau isi gula merah cair tabur kelapa.",
+    ingredients: [
+      "250 gr tepung ketan",
+      "50 gr tepung beras",
+      "Air pandan/pewarna hijau",
+      "Gula merah sisir",
+      "Kelapa parut kukus (beri sedikit garam)"
+    ],
+    steps: [
+      "Campur tepung ketan dan tepung beras.",
+      "Tuang air pandan sedikit demi sedikit hingga bisa dipulung.",
+      "Ambil sedikit adonan, pipihkan, isi gula merah, bulatkan.",
+      "Rebus dalam air mendidih. Jika mengapung berarti matang.",
+      "Gulingkan di kelapa parut."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample15",
+    tips: ["Jangan merebus terlalu lama agar tidak pecah."]
+  },
+  {
+    id: "h9i0j1k2-l3m4-5678-9012-abcdef123456",
+    title: "Es Teler",
+    category: "Kue dan Camilan",
+    difficulty: "Mudah",
+    time: "20 menit",
+    servings: "4 porsi",
+    image: "https://asset.kompas.com/crops/Es-Teler.jpg",
+    description: "Minuman es segar dengan isian alpukat, kelapa muda, dan nangka.",
+    ingredients: [
+      "2 buah alpukat, kerok dagingnya",
+      "1 butir kelapa muda, kerok dagingnya",
+      "5 biji nangka, potong-potong",
+      "Susu kental manis",
+      "Sirup gula/cocopandan (opsional)",
+      "Es serut/es batu"
+    ],
+    steps: [
+      "Tata alpukat, kelapa muda, dan nangka di mangkuk.",
+      "Beri es serut di atasnya.",
+      "Siram dengan susu kental manis dan sirup.",
+      "Sajikan segera."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=sample16",
+    tips: ["Pilih alpukat yang matang sempurna agar creamy."]
+  },
+  {
+    id: "i0j1k2l3-m4n5-6789-0123-abcdef123456",
+    title: "Kolak Pisang",
+    category: "Kue dan Camilan",
+    difficulty: "Mudah",
+    time: "30 menit",
+    servings: "4 porsi",
+    image: "https://asset.kompas.com/crops/Kolak-Pisang.jpg",
+    description: "Hidangan penutup manis bersantan dengan pisang dan ubi.",
+    ingredients: [
+      "5 buah pisang kepok",
+      "2 buah ubi jalar",
+      "1 liter santan",
+      "Gula merah, gula pasir, garam, daun pandan"
+    ],
+    steps: [
+      "Rebus air, gula merah, gula pasir, dan daun pandan hingga mendidih.",
+      "Masukkan ubi, masak setengah matang.",
+      "Masukkan pisang dan santan.",
+      "Masak hingga matang sambil diaduk agar santan tidak pecah."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=OwlbfIbRG6k",
+    tips: ["Gunakan pisang yang tidak terlalu matang agar tidak hancur."]
+  },
+  {
+    id: "j1k2l3m4-n5o6-7890-1234-abcdef123456",
+    title: "Ayam Betutu",
+    category: "Masakan Utama",
+    difficulty: "Sulit",
+    time: "3 jam",
+    servings: "6 porsi",
+    image: "https://asset.kompas.com/crops/Ayam-Betutu.jpg",
+    description: "Ayam khas Bali dengan bumbu rempah yang sangat kaya.",
+    ingredients: [
+      "1 ekor ayam kampung",
+      "Bumbu base genep: bawang merah, bawang putih, cabai, kencur, jahe, lengkuas, kunyit, kemiri, ketumbar, merica, terasi",
+      "Daun singkong rebus",
+      "Daun pisang untuk membungkus"
+    ],
+    steps: [
+      "Tumis bumbu base genep hingga harum.",
+      "Lumuri ayam dengan sebagian bumbu, masukkan sebagian lagi ke perut ayam bersama daun singkong.",
+      "Bungkus ayam dengan daun pisang.",
+      "Kukus selama 2 jam, lalu panggang 1 jam."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=TXFb8aYhf4E",
+    tips: ["Semakin lama dimasak, bumbu semakin meresap."]
+  },
+  {
+    id: "k2l3m4n5-o6p7-8901-2345-abcdef123456",
+    title: "Ikan Bakar Jimbaran",
+    category: "Masakan Utama",
+    difficulty: "Sedang",
+    time: "1 jam",
+    servings: "3 porsi",
+    image: "https://asset.kompas.com/crops/Ikan-Bakar-Jimbaran.jpg",
+    description: "Ikan bakar dengan bumbu khas Jimbaran Bali.",
+    ingredients: [
+      "2 ekor ikan kakap/gurame/bawal",
+      "Jeruk nipis, garam",
+      "Bumbu halus: bawang merah, bawang putih, cabai, kemiri, ketumbar, kunyit, terasi",
+      "Saus olesan: margarin, kecap manis"
+    ],
+    steps: [
+      "Lumuri ikan dengan jeruk nipis dan garam.",
+      "Tumis bumbu halus hingga matang, campur dengan saus olesan.",
+      "Bakar ikan sambil diolesi bumbu hingga matang."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=158wvOi62Eo",
+    tips: ["Gunakan arang batok kelapa untuk aroma asap yang sedap."]
+  },
+  {
+    id: "l3m4n5o6-p7q8-9012-3456-abcdef123456",
+    title: "Mie Goreng Jawa",
+    category: "Masakan Utama",
+    difficulty: "Sedang",
+    time: "45 menit",
+    servings: "4 porsi",
+    image: "https://asset.kompas.com/crops/Mie-Goreng-Jawa.jpg",
+    description: "Mie goreng dengan bumbu kemiri dan kecap manis.",
+    ingredients: [
+      "1 bungkus mie telur, rebus",
+      "Telur, bakso, ayam suwir",
+      "Kol, sawi hijau",
+      "Bumbu halus: bawang putih, bawang merah, kemiri, merica",
+      "Kecap manis, garam, gula"
+    ],
+    steps: [
+      "Tumis bumbu halus hingga harum.",
+      "Masukkan telur, buat orak-arik.",
+      "Masukkan ayam, bakso, dan sayuran.",
+      "Masukkan mie, kecap manis, dan bumbu lain.",
+      "Aduk rata hingga matang."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=vkWWi_zLCAE",
+    tips: ["Tambahkan sedikit air agar bumbu meresap."]
+  },
+  {
+    id: "m4n5o6p7-q8r9-0123-4567-abcdef123456",
+    title: "Capcay Kuah",
+    category: "Sayuran",
+    difficulty: "Mudah",
+    time: "30 menit",
+    servings: "4 porsi",
+    image: "https://asset.kompas.com/crops/Capcay-Kuah.jpg",
+    description: "Tumis aneka sayuran dengan kuah kental gurih.",
+    ingredients: [
+      "Wortel, brokoli, kembang kol, sawi putih, kapri",
+      "Bakso, udang, ayam",
+      "Bawang putih cincang, bawang bombay",
+      "Saus tiram, kecap asin, minyak wijen, maizena (larutkan)"
+    ],
+    steps: [
+      "Tumis bawang putih dan bombay.",
+      "Masukkan ayam dan udang hingga berubah warna.",
+      "Masukkan sayuran keras (wortel), beri air.",
+      "Masukkan sayuran lain dan bumbu.",
+      "Kentalkan dengan larutan maizena."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=L3mQwQ31CAQ",
+    tips: ["Jangan masak sayuran terlalu lama agar tetap renyah."]
+  },
+  {
+    id: "n5o6p7q8-r9s0-1234-5678-abcdef123456",
+    title: "Fuyunghai",
+    category: "Masakan Utama",
+    difficulty: "Sedang",
+    time: "45 menit",
+    servings: "4 porsi",
+    image: "https://asset.kompas.com/crops/Fuyunghai.jpg",
+    description: "Telur dadar tebal isi sayuran dan daging siram saus asam manis.",
+    ingredients: [
+      "5 butir telur",
+      "Daging ayam/udang cincang",
+      "Wortel serut, kol iris halus",
+      "Tepung terigu/sagu",
+      "Saus: bawang putih, bawang bombay, saus tomat, gula, cuka, kacang polong"
+    ],
+    steps: [
+      "Campur telur, daging, sayuran, dan tepung. Goreng tebal hingga matang.",
+      "Tumis bawang putih dan bombay, masukkan bahan saus lainnya.",
+      "Masak hingga saus mengental.",
+      "Siram saus di atas telur."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=IzvXjNqO7AA",
+    tips: ["Gunakan minyak banyak saat menggoreng agar telur mengembang."]
+  },
+  {
+    id: "o6p7q8r9-s0t1-2345-6789-abcdef123456",
+    title: "Cumi Saus Padang",
+    category: "Masakan Utama",
+    difficulty: "Sedang",
+    time: "30 menit",
+    servings: "3 porsi",
+    image: "https://asset.kompas.com/crops/Cumi-Saus-Padang.jpg",
+    description: "Cumi dimasak dengan saus pedas manis ala restoran Padang.",
+    ingredients: [
+      "500 gr cumi, bersihkan dan potong cincin",
+      "Jagung manis rebus (opsional)",
+      "Bumbu halus: cabai merah, bawang merah, bawang putih, jahe",
+      "Saus sambal, saus tomat, saus tiram",
+      "Daun jeruk, serai"
+    ],
+    steps: [
+      "Tumis bumbu halus dan rempah daun hingga matang.",
+      "Masukkan saus-sausan.",
+      "Masukkan cumi dan jagung.",
+      "Masak sebentar saja agar cumi tidak alot."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=Gq4ISe5cL8Y",
+    tips: ["Masak cumi maksimal 3 menit."]
+  },
+  {
+    id: "p7q8r9s0-t1u2-3456-7890-abcdef123456",
+    title: "Udang Balado",
+    category: "Masakan Utama",
+    difficulty: "Mudah",
+    time: "30 menit",
+    servings: "3 porsi",
+    image: "https://asset.kompas.com/crops/Udang-Balado.jpg",
+    description: "Udang goreng dimasak dengan sambal balado merah.",
+    ingredients: [
+      "500 gr udang",
+      "Daun jeruk, pete (opsional)",
+      "Bumbu tumbuk kasar: cabai merah besar, cabai keriting, bawang merah, bawang putih"
+    ],
+    steps: [
+      "Goreng udang sebentar, sisihkan.",
+      "Tumis bumbu tumbuk dan daun jeruk hingga matang dan berminyak.",
+      "Masukkan udang dan pete.",
+      "Aduk rata, beri garam dan gula."
+    ],
+    videoUrl: "https://www.youtube.com/watch?v=7S3r6WZ7Ejk",
+    tips: ["Gunakan api kecil saat menumis bumbu agar warnanya cantik."]
   }
 ];
 
