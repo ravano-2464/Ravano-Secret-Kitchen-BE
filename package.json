@@ -7,7 +7,12 @@
     "start": "node server.js",
     "dev": "node --watch server.js"
   },
-  "keywords": ["recipe", "api", "express", "mongodb"],
+  "keywords": [
+    "recipe",
+    "api",
+    "express",
+    "mongodb"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -17,5 +22,11 @@
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.6.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "typescript": "^5.9.3"
   }
 }

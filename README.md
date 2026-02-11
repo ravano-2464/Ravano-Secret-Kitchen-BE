@@ -35,24 +35,30 @@ npm run dev
 ## 📁 Struktur Proyek
 
 ```
-Backend/
-├── config/
-│   └── db.js              # MongoDB connection
-├── controllers/
-│   ├── authController.js  # Auth logic
-│   └── recipeController.js # Recipe CRUD
-├── middleware/
-│   └── auth.js            # JWT verification
-├── models/
-│   ├── User.js            # User schema
-│   └── Recipe.js          # Recipe schema
-├── routes/
-│   ├── auth.js            # Auth routes
-│   └── recipes.js         # Recipe routes
-├── .env                   # Environment variables
-├── package.json
-├── seeder.js              # Database seeder
-└── server.js              # Entry point
+├── 📁 .qodo
+│   ├── 📁 agents
+│   └── 📁 workflows
+├── 📁 config
+│   └── 📄 db.ts
+├── 📁 controllers
+│   ├── 📄 authController.ts
+│   └── 📄 recipeController.ts
+├── 📁 middleware
+│   └── 📄 auth.ts
+├── 📁 models
+│   ├── 📄 Recipe.ts
+│   └── 📄 User.ts
+├── 📁 routes
+│   ├── 📄 auth.ts
+│   └── 📄 recipes.ts
+├── ⚙️ .env.example
+├── ⚙️ .gitignore
+├── 📝 README.md
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+├── 📄 seeder.ts
+├── 📄 server.ts
+└── ⚙️ tsconfig.json
 ```
 
 ---

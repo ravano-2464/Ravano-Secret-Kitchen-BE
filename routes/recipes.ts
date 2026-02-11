@@ -1,13 +1,13 @@
-const express = require('express');
+import express from 'express';
 const router = express.Router();
-const {
+import {
   getRecipes,
   getRecipe,
   createRecipe,
   updateRecipe,
   deleteRecipe
-} = require('../controllers/recipeController');
-const { protect } = require('../middleware/auth');
+} from '../controllers/recipeController';
+import { protect } from '../middleware/auth';
 
 router.route('/')
   .get(getRecipes)
@@ -18,4 +18,4 @@ router.route('/:id')
   .put(protect, updateRecipe)
   .delete(protect, deleteRecipe);
 
-module.exports = router;
+export default router;

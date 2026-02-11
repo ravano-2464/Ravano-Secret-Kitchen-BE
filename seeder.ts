@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-const Recipe = require('./models/Recipe');
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+import Recipe from './models/Recipe';
 
 dotenv.config();
 
@@ -252,7 +252,7 @@ const recipes = [
 
 const seedDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect(process.env.MONGODB_URI as string);
     console.log('MongoDB Connected');
 
     await Recipe.deleteMany();
