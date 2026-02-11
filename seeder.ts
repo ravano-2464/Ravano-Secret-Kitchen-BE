@@ -255,7 +255,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "1 jam",
     servings: "4 porsi",
-    image: "https://asset.kompas.com/crops/bf_40E-g750x500/data/photo/2013/11/15/sate-ayam-madura780x390.jpg",
+    image: "https://i.ytimg.com/vi/R0mDzP0A_DQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCKevZCAetrLVnQIhN9FBW8vvPfcg",
     description: "Sate ayam dengan bumbu kacang khas Madura yang kental dan gurih.",
     ingredients: [
       "500 gr daging ayam, potong dadu",
@@ -285,7 +285,7 @@ const recipes = [
     difficulty: "Mudah",
     time: "45 menit",
     servings: "3 porsi",
-    image: "https://www.masakapahariini.com/wp-content/uploads/2019/01/gado-gado.jpg",
+    image: "https://assets.unileversolutions.com/recipes-v2/257673.jpg",
     description: "Salad sayuran khas Indonesia dengan saus kacang.",
     ingredients: [
       "Kangkung, tauge, labu siam, kacang panjang (rebus)",
@@ -309,7 +309,7 @@ const recipes = [
     difficulty: "Sulit",
     time: "2 jam",
     servings: "6 porsi",
-    image: "https://cdn1-production-images-kly.akamaized.net/K34703487043870/640x360/03487043870/bakso-sapi-kenyal-alami.jpg",
+    image: "https://awsimages.detik.net.id/community/media/visual/2019/08/12/dca21bf3-923c-486f-bc2e-a3dcd759b1df_43.jpeg?w=1200",
     description: "Bola daging sapi dengan kuah kaldu yang segar.",
     ingredients: [
       "500 gr daging sapi giling",
@@ -334,7 +334,7 @@ const recipes = [
     difficulty: "Sulit",
     time: "2 jam",
     servings: "5 porsi",
-    image: "https://asset.kompas.com/crops/Pempek-Palembang.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpVJ5d8bZJFLIWeHdW4Mqip4H2abFvYx6nog&s",
     description: "Makanan khas Palembang dari ikan dan sagu dengan kuah cuko.",
     ingredients: [
       "500 gr daging ikan tenggiri",
@@ -360,7 +360,7 @@ const recipes = [
     difficulty: "Sulit",
     time: "4 jam",
     servings: "6 porsi",
-    image: "https://asset.kompas.com/crops/Gudeg-Jogja.jpg",
+    image: "https://assets.telkomsel.com/public/2024-12/gudeg-jogja.png",
     description: "Sayur nangka muda dengan santan dan gula merah.",
     ingredients: [
       "1 kg nangka muda",
@@ -383,7 +383,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "2 jam",
     servings: "5 porsi",
-    image: "https://asset.kompas.com/crops/Rawon.jpg",
+    image: "https://images.tokopedia.net/img/JFrBQq/2022/9/12/162440be-e80b-4381-936e-2ee5696e2626.jpg",
     description: "Sup daging sapi dengan kuah hitam dari kluwek.",
     ingredients: [
       "500 gr daging sapi",
@@ -408,7 +408,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "1.5 jam",
     servings: "4 porsi",
-    image: "https://asset.kompas.com/crops/Soto-Betawi.jpg",
+    image: "https://assets.unileversolutions.com/recipes-v2/242832.jpg",
     description: "Soto bersantan dengan isian daging dan jeroan.",
     ingredients: [
       "500 gr daging sapi/jeroan",
@@ -433,7 +433,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "1 jam",
     servings: "6 porsi",
-    image: "https://asset.kompas.com/crops/Opor-Ayam.jpg",
+    image: "https://buckets.sasa.co.id/v1/AUTH_Assets/Assets/p/website/medias/page_medias/shutterstock_1968888214_(1)_(1).jpg",
     description: "Ayam masak santan putih/kuning, teman setia ketupat.",
     ingredients: [
       "1 ekor ayam, potong-potong",
@@ -457,7 +457,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "1 jam",
     servings: "4 porsi",
-    image: "https://asset.kompas.com/crops/Ayam-Kalasan.jpg",
+    image: "https://img-global.cpcdn.com/recipes/ff70ae9c035a4aba/1200x630cq80/photo.jpg",
     description: "Ayam goreng dengan rasa manis gurih khas Kalasan, Yogyakarta.",
     ingredients: [
       "1 ekor ayam kampung, potong 4",
@@ -481,7 +481,7 @@ const recipes = [
     difficulty: "Mudah",
     time: "30 menit",
     servings: "2 porsi",
-    image: "https://asset.kompas.com/crops/Tahu-Telur.jpg",
+    image: "https://i0.wp.com/resepkoki.id/wp-content/uploads/2021/09/Resep-Tahu-Telur.jpg?fit=1560%2C1496&ssl=1",
     description: "Omelet tahu khas Jawa Timur dengan bumbu petis.",
     ingredients: [
       "2 buah tahu putih, potong dadu",
@@ -507,7 +507,7 @@ const recipes = [
     difficulty: "Sulit",
     time: "1.5 jam",
     servings: "2 porsi",
-    image: "https://asset.kompas.com/crops/Pepes-Ikan.jpg",
+    image: "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/11/Resep-Pepes-Ikan-Mas-Sunda.jpg?fit=1786%2C1920&ssl=1",
     description: "Ikan mas dibumbu kuning dan dibungkus daun pisang.",
     ingredients: [
       "2 ekor ikan mas",
@@ -532,7 +532,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "45 menit",
     servings: "5 porsi",
-    image: "https://asset.kompas.com/crops/Sayur-Lodeh.jpg",
+    image: "https://www.dapurkobe.co.id/wp-content/uploads/sayur-lodeh.jpg",
     description: "Sayur berkuah santan dengan isian nangka muda, labu siam, dan kacang panjang.",
     ingredients: [
       "200 gr nangka muda",
@@ -560,7 +560,7 @@ const recipes = [
     difficulty: "Mudah",
     time: "45 menit",
     servings: "10 buah",
-    image: "https://asset.kompas.com/crops/Perkedel.jpg",
+    image: "https://images.tokopedia.net/img/KRMmCm/2024/2/19/b0be084c-e37b-4f7f-8bf4-e91350bd4ff3.jpg",
     description: "Olahan kentang goreng yang dihaluskan dan dibumbui.",
     ingredients: [
       "500 gr kentang, kupas potong dadu",
@@ -586,7 +586,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "1 jam",
     servings: "8 potong",
-    image: "https://asset.kompas.com/crops/Martabak-Manis.jpg",
+    image: "https://www.chocolatesandchai.com/wp-content/uploads/2024/10/Martabak-Manis-Featured-260x195.jpg",
     description: "Kue dadar tebal manis dengan topping coklat, keju, dan kacang.",
     ingredients: [
       "250 gr tepung terigu",
@@ -613,7 +613,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "1 jam",
     servings: "20 butir",
-    image: "https://asset.kompas.com/crops/Klepon.jpg",
+    image: "https://img-global.cpcdn.com/recipes/493c8d9761da4e86/1200x630cq80/photo.jpg",
     description: "Kue bola ketan hijau isi gula merah cair tabur kelapa.",
     ingredients: [
       "250 gr tepung ketan",
@@ -639,7 +639,7 @@ const recipes = [
     difficulty: "Mudah",
     time: "20 menit",
     servings: "4 porsi",
-    image: "https://asset.kompas.com/crops/Es-Teler.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Z1OXCTDhZ7m12-PVvSkoT2233Wdq4bBKXA&s",
     description: "Minuman es segar dengan isian alpukat, kelapa muda, dan nangka.",
     ingredients: [
       "2 buah alpukat, kerok dagingnya",
@@ -665,7 +665,7 @@ const recipes = [
     difficulty: "Mudah",
     time: "30 menit",
     servings: "4 porsi",
-    image: "https://asset.kompas.com/crops/Kolak-Pisang.jpg",
+    image: "https://images.tokopedia.net/img/JFrBQq/2022/3/30/118bc6eb-7c68-4bce-9c34-1ca63a12979c.jpg",
     description: "Hidangan penutup manis bersantan dengan pisang dan ubi.",
     ingredients: [
       "5 buah pisang kepok",
@@ -689,7 +689,7 @@ const recipes = [
     difficulty: "Sulit",
     time: "3 jam",
     servings: "6 porsi",
-    image: "https://asset.kompas.com/crops/Ayam-Betutu.jpg",
+    image: "https://awsimages.detik.net.id/community/media/visual/2021/08/27/resep-ayam-betutu-gilimanuk_43.jpeg?w=650",
     description: "Ayam khas Bali dengan bumbu rempah yang sangat kaya.",
     ingredients: [
       "1 ekor ayam kampung",
@@ -713,7 +713,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "1 jam",
     servings: "3 porsi",
-    image: "https://asset.kompas.com/crops/Ikan-Bakar-Jimbaran.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpVJ5d8bZJFLIWeHdW4Mqip4H2abFvYx6nog&s",
     description: "Ikan bakar dengan bumbu khas Jimbaran Bali.",
     ingredients: [
       "2 ekor ikan kakap/gurame/bawal",
@@ -736,7 +736,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "45 menit",
     servings: "4 porsi",
-    image: "https://asset.kompas.com/crops/Mie-Goreng-Jawa.jpg",
+    image: "https://images.tokopedia.net/img/KRMmCm/2023/11/17/63486d6c-fb91-4a8c-a329-4b95a0a4deb3.jpg",
     description: "Mie goreng dengan bumbu kemiri dan kecap manis.",
     ingredients: [
       "1 bungkus mie telur, rebus",
@@ -762,7 +762,7 @@ const recipes = [
     difficulty: "Mudah",
     time: "30 menit",
     servings: "4 porsi",
-    image: "https://asset.kompas.com/crops/Capcay-Kuah.jpg",
+    image: "https://images.tokopedia.net/img/JFrBQq/2022/8/26/de2ac563-038d-4434-8287-711e891f3b54.jpg",
     description: "Tumis aneka sayuran dengan kuah kental gurih.",
     ingredients: [
       "Wortel, brokoli, kembang kol, sawi putih, kapri",
@@ -787,7 +787,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "45 menit",
     servings: "4 porsi",
-    image: "https://asset.kompas.com/crops/Fuyunghai.jpg",
+    image: "https://img-global.cpcdn.com/recipes/9982c169674cfd50/200x200f0.502009_0.5_1.0q80/fuyunghai-anti-gagal-pasti-jadi-foto-resep-utama.jpg",
     description: "Telur dadar tebal isi sayuran dan daging siram saus asam manis.",
     ingredients: [
       "5 butir telur",
@@ -812,7 +812,7 @@ const recipes = [
     difficulty: "Sedang",
     time: "30 menit",
     servings: "3 porsi",
-    image: "https://asset.kompas.com/crops/Cumi-Saus-Padang.jpg",
+    image: "https://asset.kompas.com/crops/qPcy6soA0jsev4ZvNCeL8vTmuJ0=/3x0:700x465/1200x800/data/photo/2021/04/29/608a7ed4d788f.jpg",
     description: "Cumi dimasak dengan saus pedas manis ala restoran Padang.",
     ingredients: [
       "500 gr cumi, bersihkan dan potong cincin",
@@ -837,7 +837,7 @@ const recipes = [
     difficulty: "Mudah",
     time: "30 menit",
     servings: "3 porsi",
-    image: "https://asset.kompas.com/crops/Udang-Balado.jpg",
+    image: "https://images.tokopedia.net/img/JFrBQq/2023/10/24/7f25503e-b920-40ad-8ead-58cccc643e80.jpg",
     description: "Udang goreng dimasak dengan sambal balado merah.",
     ingredients: [
       "500 gr udang",
