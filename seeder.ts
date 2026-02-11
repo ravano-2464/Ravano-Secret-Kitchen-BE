@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import Recipe from './models/Recipe';
+import Recipe from './models/Recipe.ts';
 
 dotenv.config();
 

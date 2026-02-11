@@ -1,9 +1,9 @@
-const Recipe = require('../models/Recipe');
+import Recipe from '../models/Recipe.ts';
 
-exports.getRecipes = async (req, res) => {
+export const getRecipes = async (req: any, res: any) => {
   try {
     const { category, search } = req.query;
-    let query = {};
+    let query: any = {};
 
     if (category && category !== 'Semua') {
       query.category = category;
@@ -23,12 +23,12 @@ exports.getRecipes = async (req, res) => {
       count: recipes.length,
       data: recipes
     });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };
 
-exports.getRecipe = async (req, res) => {
+export const getRecipe = async (req: any, res: any) => {
   try {
     const recipe = await Recipe.findOne({ id: req.params.id });
 
@@ -40,12 +40,12 @@ exports.getRecipe = async (req, res) => {
       success: true,
       data: recipe
     });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };
 
-exports.createRecipe = async (req, res) => {
+export const createRecipe = async (req: any, res: any) => {
   try {
     req.body.createdBy = req.user.id;
     const recipe = await Recipe.create(req.body);
@@ -54,12 +54,12 @@ exports.createRecipe = async (req, res) => {
       success: true,
       data: recipe
     });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };
 
-exports.updateRecipe = async (req, res) => {
+export const updateRecipe = async (req: any, res: any) => {
   try {
     let recipe = await Recipe.findOne({ id: req.params.id });
 
@@ -76,12 +76,12 @@ exports.updateRecipe = async (req, res) => {
       success: true,
       data: recipe
     });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };
 
-exports.deleteRecipe = async (req, res) => {
+export const deleteRecipe = async (req: any, res: any) => {
   try {
     const recipe = await Recipe.findOne({ id: req.params.id });
 
@@ -95,7 +95,7 @@ exports.deleteRecipe = async (req, res) => {
       success: true,
       data: {}
     });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };

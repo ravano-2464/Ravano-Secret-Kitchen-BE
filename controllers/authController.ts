@@ -1,13 +1,13 @@
-const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+import jwt from 'jsonwebtoken';
+import User from '../models/User.ts';
 
-const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRE
+const generateToken = (id: any) => {
+  return jwt.sign({ id }, process.env.JWT_SECRET as string, {
+    expiresIn: process.env.JWT_EXPIRE as any
   });
 };
 
-exports.register = async (req, res) => {
+export const register = async (req: any, res: any) => {
   try {
     const { name, email, password } = req.body;
 
@@ -33,12 +33,12 @@ exports.register = async (req, res) => {
         email: user.email
       }
     });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };
 
-exports.login = async (req, res) => {
+export const login = async (req: any, res: any) => {
   try {
     const { email, password } = req.body;
 
@@ -51,7 +51,7 @@ exports.login = async (req, res) => {
       return res.status(401).json({ message: 'Invalid credentials' });
     }
 
-    const isMatch = await user.matchPassword(password);
+    const isMatch = await (user as any).matchPassword(password);
     if (!isMatch) {
       return res.status(401).json({ message: 'Invalid credentials' });
     }
@@ -67,23 +67,23 @@ exports.login = async (req, res) => {
         email: user.email
       }
     });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };
 
-exports.getMe = async (req, res) => {
+export const getMe = async (req: any, res: any) => {
   try {
     const user = await User.findById(req.user.id);
     res.json({
       success: true,
       user: {
-        id: user._id,
-        name: user.name,
-        email: user.email
+        id: user!._id,
+        name: user!.name,
+        email: user!.email
       }
     });
-  } catch (error) {
+  } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
 };

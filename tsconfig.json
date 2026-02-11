@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "commonjs",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "allowJs": true,
-    "outDir": "./dist",
     "rootDir": ".",
     "strict": false,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "moduleResolution": "node"
+    "resolveJsonModule": true
   },
   "include": ["./**/*.ts"],
   "exclude": ["node_modules", "dist"]

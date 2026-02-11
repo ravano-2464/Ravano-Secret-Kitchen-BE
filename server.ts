@@ -1,9 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import connectDB from './config/db';
-import authRoutes from './routes/auth';
-import recipeRoutes from './routes/recipes';
+import connectDB from './config/db.ts';
+import authRoutes from './routes/auth.ts';
+import recipeRoutes from './routes/recipes.ts';
 
 dotenv.config();
 
@@ -26,7 +26,7 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
   res.status(500).json({ message: 'Server Error', error: err.message });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = Number(process.env.PORT) || 5000;
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT} (accessible on all network interfaces)`);

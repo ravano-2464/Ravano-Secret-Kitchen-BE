@@ -6,8 +6,8 @@ import {
   createRecipe,
   updateRecipe,
   deleteRecipe
-} from '../controllers/recipeController';
-import { protect } from '../middleware/auth';
+} from '../controllers/recipeController.ts';
+import { protect } from '../middleware/auth.ts';
 
 router.route('/')
   .get(getRecipes)
