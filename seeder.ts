@@ -683,7 +683,7 @@ const recipes = [
       "Siram dengan susu kental manis dan sirup.",
       "Sajikan segera.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample16",
+    videoUrl: "https://www.youtube.com/watch?v=TN3mXkp1Tl8",
     tips: ["Pilih alpukat yang matang sempurna agar creamy."],
   },
   {
@@ -708,7 +708,7 @@ const recipes = [
       "Masukkan pisang dan santan.",
       "Masak hingga matang sambil diaduk agar santan tidak pecah.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=OwlbfIbRG6k",
+    videoUrl: "https://www.youtube.com/watch?v=Fso7z_zClBQ",
     tips: ["Gunakan pisang yang tidak terlalu matang agar tidak hancur."],
   },
   {
@@ -733,7 +733,7 @@ const recipes = [
       "Bungkus ayam dengan daun pisang.",
       "Kukus selama 2 jam, lalu panggang 1 jam.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=TXFb8aYhf4E",
+    videoUrl: "https://www.youtube.com/watch?v=8L2FdhuVbQM",
     tips: ["Semakin lama dimasak, bumbu semakin meresap."],
   },
   {
@@ -784,7 +784,7 @@ const recipes = [
       "Masukkan mie, kecap manis, dan bumbu lain.",
       "Aduk rata hingga matang.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=vkWWi_zLCAE",
+    videoUrl: "https://www.youtube.com/watch?v=6sdlhjRE2u0",
     tips: ["Tambahkan sedikit air agar bumbu meresap."],
   },
   {
@@ -810,7 +810,7 @@ const recipes = [
       "Masukkan sayuran lain dan bumbu.",
       "Kentalkan dengan larutan maizena.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=L3mQwQ31CAQ",
+    videoUrl: "https://www.youtube.com/watch?v=SIacYxCkh_k",
     tips: ["Jangan masak sayuran terlalu lama agar tetap renyah."],
   },
   {
@@ -837,7 +837,7 @@ const recipes = [
       "Masak hingga saus mengental.",
       "Siram saus di atas telur.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=IzvXjNqO7AA",
+    videoUrl: "https://www.youtube.com/watch?v=PZlZqqs7tuw",
     tips: ["Gunakan minyak banyak saat menggoreng agar telur mengembang."],
   },
   {
@@ -887,7 +887,7 @@ const recipes = [
       "Masukkan udang dan pete.",
       "Aduk rata, beri garam dan gula.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=7S3r6WZ7Ejk",
+    videoUrl: "https://www.youtube.com/watch?v=yjLBwxD8FNs",
     tips: ["Gunakan api kecil saat menumis bumbu agar warnanya cantik."],
   },
 ];
