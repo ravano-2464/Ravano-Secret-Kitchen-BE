@@ -414,7 +414,7 @@ const recipes = [
       "Masak hingga meresap.",
       "Sajikan dengan tauge, telur asin, dan sambal.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample6",
+    videoUrl: "https://www.youtube.com/watch?v=FiuBgHU0N9o",
     tips: ["Pilih kluwek yang tua dan tidak pahit."],
   },
   {
@@ -439,7 +439,7 @@ const recipes = [
       "Tambahkan santan dan susu, aduk terus.",
       "Sajikan dengan emping, tomat, dan daun bawang.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample7",
+    videoUrl: "https://www.youtube.com/watch?v=siSG_AqdMn0",
     tips: ["Gunakan susu untuk rasa yang lebih creamy dan gurih."],
   },
   {
@@ -464,7 +464,7 @@ const recipes = [
       "Tuang santan, masak hingga ayam empuk dan kuah mengental.",
       "Sajikan dengan ketupat dan bawang goreng.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample8",
+    videoUrl: "https://www.youtube.com/watch?v=uZvWZzy8LyY",
     tips: ["Gunakan ayam kampung untuk rasa yang lebih gurih."],
   },
   {
@@ -490,7 +490,7 @@ const recipes = [
       "Goreng ayam sebentar dalam minyak panas.",
       "Sajikan dengan sambal dan lalapan.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample9",
+    videoUrl: "https://www.youtube.com/watch?v=Yh4gPrxAouI",
     tips: ["Gunakan air kelapa agar daging ayam lebih empuk dan gurih."],
   },
   {
@@ -517,7 +517,7 @@ const recipes = [
       "Siram dengan bumbu kacang petis.",
       "Taburi bawang goreng dan kerupuk.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample10",
+    videoUrl: "https://www.youtube.com/watch?v=3sxYn_zKivw",
     tips: ["Gunakan api sedang agar telur matang merata."],
   },
   {
