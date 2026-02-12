@@ -543,7 +543,7 @@ const recipes = [
       "Kukus selama 1 jam hingga matang.",
       "Bakar sebentar di atas bara api agar harum (opsional).",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample11",
+    videoUrl: "https://www.youtube.com/watch?v=SQ1NRwEFETk",
     tips: ["Kukus ikan cukup lama agar duri lunak."],
   },
   {
@@ -572,7 +572,7 @@ const recipes = [
       "Masak hingga semua sayuran matang.",
       "Koreksi rasa.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample12",
+    videoUrl: "https://www.youtube.com/watch?v=G_MGQrb14Mc",
     tips: ["Aduk terus santan agar tidak pecah."],
   },
   {
@@ -599,7 +599,7 @@ const recipes = [
       "Celupkan ke putih telur kocok.",
       "Goreng dalam minyak panas hingga kecokelatan.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample13",
+    videoUrl: "https://www.youtube.com/watch?v=4WIOGibJ8Dk",
     tips: ["Gunakan kentang jenis tes agar tidak lembek."],
   },
   {
@@ -628,7 +628,7 @@ const recipes = [
       "Taburkan gula pasir, tutup teflon hingga matang.",
       "Angkat, olesi mentega dan beri topping.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample14",
+    videoUrl: "https://www.youtube.com/watch?v=DCGZ2IVmFJE",
     tips: ["Pastikan teflon benar-benar panas sebelum menuang adonan."],
   },
   {
@@ -655,7 +655,7 @@ const recipes = [
       "Rebus dalam air mendidih. Jika mengapung berarti matang.",
       "Gulingkan di kelapa parut.",
     ],
-    videoUrl: "https://www.youtube.com/watch?v=sample15",
+    videoUrl: "https://www.youtube.com/watch?v=M2asgYKevVU",
     tips: ["Jangan merebus terlalu lama agar tidak pecah."],
   },
   {
