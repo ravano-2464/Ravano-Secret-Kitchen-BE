@@ -35,6 +35,7 @@ npm run dev
 ## 📁 Struktur Proyek
 
 ```
+Backend/
 ├── 📁 config/                  # Konfigurasi aplikasi
 │   └── 📄 db.ts                # Koneksi ke database MongoDB
 ├── 📁 controllers/             # Logika bisnis (handler request)
