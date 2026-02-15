@@ -35,31 +35,42 @@ npm run dev
 ## 📁 Struktur Proyek
 
 ```
-├── 📁 .qodo
-│   ├── 📁 agents
-│   └── 📁 workflows
-├── 📁 config
-│   └── 📄 db.ts
-├── 📁 controllers
-│   ├── 📄 authController.ts
-│   └── 📄 recipeController.ts
-├── 📁 middleware
-│   └── 📄 auth.ts
-├── 📁 models
-│   ├── 📄 Recipe.ts
-│   └── 📄 User.ts
-├── 📁 routes
-│   ├── 📄 auth.ts
-│   └── 📄 recipes.ts
-├── ⚙️ .env.example
-├── ⚙️ .gitignore
-├── 📝 README.md
-├── ⚙️ package-lock.json
-├── ⚙️ package.json
-├── 📄 seeder.ts
-├── 📄 server.ts
-└── ⚙️ tsconfig.json
+├── 📁 config/                  # Konfigurasi aplikasi
+│   └── 📄 db.ts                # Koneksi ke database MongoDB
+├── 📁 controllers/             # Logika bisnis (handler request)
+│   ├── 📄 authController.ts    # Handler autentikasi (register, login, getMe)
+│   └── 📄 recipeController.ts  # Handler CRUD resep (get, create, update, delete)
+├── 📁 middleware/               # Middleware Express
+│   └── 📄 auth.ts              # Middleware proteksi route (JWT verification)
+├── 📁 models/                   # Mongoose schema & model
+│   ├── 📄 Recipe.ts            # Schema resep (title, category, ingredients, steps, dll.)
+│   └── 📄 User.ts              # Schema user (name, email, password) + password hashing
+├── 📁 routes/                   # Definisi endpoint API
+│   ├── 📄 auth.ts              # Route autentikasi (/api/auth/*)
+│   └── 📄 recipes.ts           # Route resep (/api/recipes/*)
+├── ⚙️ .env.example              # Template variabel environment
+├── ⚙️ .gitignore                # File & folder yang diabaikan Git
+├── 📝 README.md                 # Dokumentasi proyek
+├── ⚙️ package.json              # Dependensi & script npm
+├── ⚙️ package-lock.json         # Lock file dependensi npm
+├── 📄 seeder.ts                 # Script seed data resep awal ke database
+├── 📄 server.ts                 # Entry point aplikasi Express
+└── ⚙️ tsconfig.json             # Konfigurasi TypeScript compiler
 ```
+
+### 📖 Penjelasan Struktur
+
+| Folder / File | Deskripsi |
+|---------------|-----------|
+| **`config/`** | Berisi konfigurasi aplikasi. File `db.ts` menangani koneksi ke MongoDB menggunakan Mongoose dengan connection string dari environment variable `MONGODB_URI`. |
+| **`controllers/`** | Berisi logika bisnis yang memproses request dari client. `authController.ts` menangani registrasi user, login, dan pengambilan data user yang sedang login. `recipeController.ts` menangani operasi CRUD (Create, Read, Update, Delete) untuk data resep, termasuk fitur pencarian dan filter berdasarkan kategori. |
+| **`middleware/`** | Berisi middleware Express. File `auth.ts` mengekspor fungsi `protect` yang memverifikasi JWT token dari header `Authorization` untuk melindungi route yang membutuhkan autentikasi. |
+| **`models/`** | Berisi Mongoose schema dan model untuk MongoDB. `Recipe.ts` mendefinisikan schema resep dengan field seperti title, category, difficulty, time, servings, image, description, ingredients, steps, videoUrl, dan tips. `User.ts` mendefinisikan schema user dengan field name, email, dan password, dilengkapi dengan pre-save hook untuk hashing password menggunakan bcrypt. |
+| **`routes/`** | Berisi definisi endpoint API. `auth.ts` menghubungkan route `/api/auth/*` ke controller autentikasi. `recipes.ts` menghubungkan route `/api/recipes/*` ke controller resep, dengan middleware `protect` pada route yang membutuhkan autentikasi (POST, PUT, DELETE). |
+| **`server.ts`** | Entry point utama aplikasi. Menginisialisasi Express, menghubungkan ke database, mengonfigurasi middleware (CORS, JSON parser), mendaftarkan routes, dan menjalankan server pada port yang ditentukan (default: 5000). |
+| **`seeder.ts`** | Script untuk mengisi database dengan data resep awal (seed data). Berisi koleksi resep masakan Indonesia lengkap dengan bahan, langkah, tips, dan video tutorial. Dijalankan sekali saat setup awal proyek. |
+| **`tsconfig.json`** | Konfigurasi TypeScript compiler yang menentukan opsi kompilasi seperti target, module system, dan strict mode. |
+| **`.env.example`** | Template file environment variable yang berisi key yang diperlukan (`MONGODB_URI`, `JWT_SECRET`, `JWT_EXPIRE`, `PORT`) tanpa value sensitif. |
 
 ---
 
